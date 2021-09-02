@@ -1,0 +1,26 @@
+@import '../App';
+@import '../components/Login/Login';
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Font
+@font-face {
+  font-family: 'GothamSSm-Book';
+  src: url('../fonts/GothamSSm-Book.ttf') format('truetype');
+}
+
+// Core styling
+body,
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'GothamSSm-Book', sans-serif;
+  font-weight: 400;
+  line-height: 2.3em;
+  margin: auto;
+}
