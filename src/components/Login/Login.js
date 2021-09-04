@@ -13,7 +13,7 @@ const Login = () => {
           <input type="text" name="email" id="email-input" required/>
 
           <div id="check-box-container">
-            <input type="checkbox" defaultChecked="checked" name="remember" id="remember-checkbox"/> 
+            <input type="checkbox" defaultChecked="checked" /> 
             <label id="checkbox-label">Remember this device</label>
           </div>
 
